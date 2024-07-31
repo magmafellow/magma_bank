@@ -23,10 +23,11 @@ export default function LoginForm({ className }: { className?: string }) {
         </div>
         <TextInput id="password1" type="password" required />
       </div>
-      {/* <div className="flex items-center gap-2">
-        <Checkbox id="remember" />
-        <Label htmlFor="remember">Remember me</Label>
-      </div> */}
+      {/* message box */}
+      <div className="">
+        {/* <p className="text-zinc-800 pl-2 mb-2 dark:text-blue-200">It is just a message</p> */}
+        {/* <p className="text-zinc-800 pl-2 mb-2 dark:text-blue-200">It is another message</p> */}
+      </div>
       <Button type="submit">Submit</Button>
     </form>
   );

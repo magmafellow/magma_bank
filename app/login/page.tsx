@@ -1,5 +1,5 @@
 import React from "react";
-import LoginForm from "../ui/login-form";
+import LoginForm from "../ui/login/login-form";
 import Container from "../ui/container";
 import NavBar from "../ui/navbar";
 
